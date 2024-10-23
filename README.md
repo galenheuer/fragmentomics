@@ -3,7 +3,7 @@ Background: Rather than using disease-specific genetic markers for cfDNA deconvo
 
 Hypothesis: Differential cell death due to neurodegeneration in ALS can be observed via fragmentation analysis and used as a predictor of disease state.
 
-Methods:  
+Methods:
 - Calculate window protection scores and nucleosome positioning (peak calling algorithm)  
     - Specified by Snyder et al. 2016, using Shendure lab source code  
     - Validate that methylation cfDNA data agrees with expectations from WGS  
@@ -29,6 +29,6 @@ Questions:
 - How can we infer information about biological gene expression from fragmentation profiles that we can’t from differential methylation?
 
 Related work:
-Snyder et al., 2016, Cell 164, 57–68 January 14, 2016 a2016 Elsevier Inc. http://dx.doi.org/10.1016/j.cell.2015.11.050
+Snyder et al., 2016, Cell 164, 57–68 January 14, 2016 a2016 Elsevier Inc. http://dx.doi.org/10.1016/j.cell.2015.11.050  
 Esfahani, M.S., Hamilton, E.G., Mehrmohamadi, M. et al. Inferring gene expression from cell-free DNA fragmentation profiles. Nat Biotechnol 40, 585–597 (2022). https://doi.org/10.1038/s41587-022-01222-4
 

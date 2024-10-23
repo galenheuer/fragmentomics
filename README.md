@@ -5,21 +5,21 @@ Hypothesis: Differential cell death due to neurodegeneration in ALS can be obser
 
 Methods: 
 Calculate window protection scores and nucleosome positioning (peak calling algorithm)
-Specified by Snyder et al. 2016, using Shendure lab source code
-Validate that methylation cfDNA data agrees with expectations from WGS  
+  Specified by Snyder et al. 2016, using Shendure lab source code
+  Validate that methylation cfDNA data agrees with expectations from WGS  
 Cell-of-origin analysis
-Compare to single-cell RNA sequencing expression levels summarized per gene
-Aim to replicate the enrichment of skeletal muscle in cfDNA obtained from methylation estimates 
-Test for differences in cell type of origin between ALS cases and controls 
-Test for association with cell type proportions and ALS phenotypes 
+  Compare to single-cell RNA sequencing expression levels summarized per gene
+  Aim to replicate the enrichment of skeletal muscle in cfDNA obtained from methylation estimates 
+  Test for differences in cell type of origin between ALS cases and controls 
+  Test for association with cell type proportions and ALS phenotypes 
 Benchmark with other fragmentation-based cfDNA approaches
-IchorDNA
-Griffin
+  IchorDNA
+  Griffin
 Statistical analysis on fragmentation patterns and cell-of-origin inference
-Train ML model for 
-Binary case control status 
-ALS phenotypes 
-Compare integrating fragmentomic featurs with methylation, CpG coverage, and kmer approaches 
+  Train ML model for 
+    Binary case control status 
+    ALS phenotypes 
+  Compare integrating fragmentomic featurs with methylation, CpG coverage, and kmer approaches 
 
 Questions:
 How does this work with our bisulfite-converted samples?
